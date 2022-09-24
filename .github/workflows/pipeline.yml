@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: '*/5 * * * *'
 
-job:
+jobs:
   RunTest:
     runs-on: ubuntu-latest
 
